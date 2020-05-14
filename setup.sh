@@ -71,3 +71,10 @@ ln -s "$HOME/GitHub/dot_files/cmus" $HOME/.config/cmus
 ln -s "$HOME/GitHub/dot_files/fish" $HOME/.config/fish
 ln -s "$HOME/GitHub/dot_files/vifm" $HOME/.config/vifm
 ln -s "$HOME/GitHub/dot_files/mpv" $HOME/.config/mpv
+if [ -d $HOME/.config/alacritty ]
+then
+else
+    mkdir -p $HOME/.config/alacritty
+    ln -s "$HOME/GitHub/dot_files/alacritty" $HOME/.config/alacritty/alacritty.yml
+    fi
+
