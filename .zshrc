@@ -113,8 +113,8 @@ export MANPATH="/usr/local/man:$MANPATH"
 #
 
 
-if [[ -e ~/dot_files/aliases ]] then
-    source ~/dot_files/aliases
+if [[ -e ~/GitHub/dot_files/aliases ]] then
+    source ~/GitHub/dot_files/aliases
 fi
 
 
