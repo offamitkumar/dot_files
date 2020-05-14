@@ -96,7 +96,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Mononoki Nerd Font
+    family: Liberation Mono
 
     # The `style` can be specified to pick a specific face.
     style: Regular 
@@ -107,7 +107,7 @@ bold:
     #
     # If the bold family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Mononoki Nerd Font
+    family: Liberation Mono
 
     # The `style` can be specified to pick a specific face.
     style: Bold
@@ -129,7 +129,7 @@ bold_italic:
     #
     # If the bold italic family is not specified, it will fall back to the
     # value specified for the normal font.
-    family: Mononoki Nerd Font
+    family: Liberation Mono
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -318,7 +318,7 @@ dim:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.9
+background_opacity: 0.91
 
 selection:
   semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
