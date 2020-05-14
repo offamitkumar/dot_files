@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/amit/Google Code Jam/2020/Qualification-Round/Parenting-Partnering-Returns'
+let g:netrw_dirhist_2='/etc'
+let g:netrw_dirhist_3='/home/amit/Google Code Jam/2020/Qualification-Round/Parenting-Partnering-Returns'
+let g:netrw_dirhist_4='/home/amit/Pictures/Wallpaper'
+let g:netrw_dirhist_5='/home/amit/UVA--Online-Judge'
