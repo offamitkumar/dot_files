@@ -1,0 +1,131 @@
+
+# These are my personal aliases , you are free to use/edit them
+
+
+
+# changing the directory
+
+alias "cd.."='cd ..'
+alias ".."='cd ..'
+alias "..."='cd ../..'
+alias "...."='cd ../../..'
+alias "....."='cd ../../../..'
+
+
+# mounting/unmounting block devices 
+
+alias mtp='jmtpfs '
+alias umpt='fusermount -u '
+alias mu='mupdf '
+
+
+# some very handy alias / atleast for me ;)
+
+alias mus='cd ~/Music'
+alias ms='cd ~/Music'
+alias vid='cd ~/Videos'
+alias vd='cd ~/Videos'
+alias Doc='cd ~/Documents'
+alias Dc='cd ~/Documents'
+alias dc='cd ~/Documents'
+alias Dow='cd ~/Downloads'
+alias Dw='cd ~/Downloads'
+alias dw='cd ~/Downloads'
+alias d='cd ~/Desktop'
+alias b='cd ~/Books'  # be careful about this
+alias Des='cd ~/Desktop'
+alias Pic='cd ~/Pictures'
+alias pc='cd ~/Pictures'
+alias pic='cd ~/Pictures'
+alias Sof='cd ~/Softwares' # be careful about this 
+alias sof='cd ~/Softwares' # be careful about this
+alias s='cd ~/Softwares' # be careful about this
+
+
+# GitHub aliases 
+
+alias gt='cd ~/GitHub'  # be careful about this
+alias Git='cd ~/GitHub'  # be careful about this
+alias ga='git add '
+alias gp='git push '
+alias gc='git checkout '
+
+# application launcher 
+
+alias x='xdg-open '
+alias vims='vim '
+alias vm='vim '
+alias gvim='vim '
+
+
+# some manipulated command 
+
+alias t='time '
+alias md='mkdir '
+alias rm='rm -r '
+alias shut='sudo poweroff'
+alias shutdown='sudo poweroff'
+alias e='exit'
+
+
+# moving to my command testing folder 
+
+alias test='cd $HOME/Testing'
+
+
+
+# Competitive Programming alias 
+
+alias vs='vim sol.cpp '
+alias v='vim '
+alias gs='g sol.cpp'
+alias out='cat output'
+alias rin='rm input && vi input'
+alias rio='rm input && vi input && ./a.out && clear && out'
+alias inp='cat input'
+alias cf='cd && cd /home/amit/Desktop/Competitive\ Programming/'
+alias g++='g++ -std=c++2a ' #using c++-20
+alias g="g++ -g -Wall -D HELL_JUDGE -fsanitize=signed-integer-overflow -fsanitize=return "
+alias err='cat error'
+alias cpy='cp ~/Templates/Default.cpp ./sol.cpp && touch input'
+alias cpx='cp ~/Templates/Default_C++.cpp ./sol.cpp '
+
+
+# Competitive Programming folder 
+alias codechef='cd /home/amit/Desktop/Competitive\ Programming/Codechef'
+alias codeforces='cd /home/amit/Desktop/Competitive\ Programming/Codeforces'
+alias hackerearth='cd /home/amit/Desktop/Competitive\ Programming/HackerEarth'
+alias atcoder='cd /home/amit/Desktop/Competitive\ Programming/AtCoder'
+
+alias spoj='cd /home/amit/GitHub/SPOJ'
+alias gcj='cd /home/amit/Google\ Code\ Jam'
+alias uva='cd /home/amit/GitHub/UVA--Online-Judge'
+alias projecteuler='cd /home/amit/GitHub/ProjectEuler'
+alias dailycodingproblem='cd /home/amit/GitHub/Daily-Coding-Problem'
+alias dcp='cd /home/amit/GitHub/Daily-Coding-Problem'
+alias hackerrank='cd /home/amit/GitHub/HackerRank'
+
+
+
+
+
+
+# some mistyped / typos correcting commands 
+
+
+alias quit='exit'
+alias lr='ls '
+alias sl='ls '
+alias clea='clear'
+alias cls='clear'
+alias clar='clear'
+alias lear='clear'
+alias car='clear'
+alias kl='ls'
+alias ks='ls'
+alias clr='clear'
+alias cear='clear'
+alias clar='clear'
+alias c='clear'
+
+
