@@ -1,1 +1,0 @@
-/home/amit/GitHub/dot_files/.vim
