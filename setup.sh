@@ -75,6 +75,6 @@ if [ -d $HOME/.config/alacritty ]
 then
 else
     mkdir -p $HOME/.config/alacritty
-    ln -s "$HOME/GitHub/dot_files/alacritty" $HOME/.config/alacritty/alacritty.yml
     fi
+ln -s "$HOME/GitHub/dot_files/alacritty" $HOME/.config/alacritty/alacritty.yml
 
