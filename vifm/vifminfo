@@ -115,6 +115,12 @@ d/home/amit/Phone/Internal shared storage
 d/home/amit/Phone/Internal shared storage/Download
 	Taken_1_Taken.1.(2008).720p.English.[MoviesFlix.in].mkv
 4
+d/home/amit/GitHub/LeetCode/Problems
+	00001.cpp
+1
+d/home/amit/GitHub
+	..
+0
 d
 
 # Right window history (oldest to newest):
@@ -349,6 +355,9 @@ D/home/amit
 D/home/amit/Downloads
 	Taken_1_Taken.1.(2008).720p.English.[MoviesFlix.in].mkv
 2
+D/home/amit/GitHub/LeetCode/Problems
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -363,9 +372,7 @@ D
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/amit/Downloads/Taken_1_Taken.1.(2008).720p.English.[MoviesFlix.in].mkv
-""/home/amit/Downloads/Taken_2_Taken.2.(2012).720p.English.[MoviesFlix.in].mkv
-""/home/amit/Downloads/Taken_3_Taken.3.(2014).720p.English.(Hindi.Subs).[MoviesFlix.In].mkv
+""/home/amit/.local/share/vifm/Trash/000_a
 
 # Directory stack (oldest to newest):
 
@@ -388,6 +395,8 @@ t/home/amit/.local/share/vifm/Trash/000_Syeraa.720p.HDRip.themoviesflix.in.mkv.m
 	/home/amit/Phone/Internal shared storage/Download/Syeraa.720p.HDRip.themoviesflix.in.mkv.mkv
 t/home/amit/.local/share/vifm/Trash/000_Transformers_Transformers.2.Revenge.of.the.Fallen.(2009).720p.Dual.Audio.(Hin-Eng).[MoviesFlix.NeT].mkv
 	/home/amit/Phone/Internal shared storage/Download/Transformers_Transformers.2.Revenge.of.the.Fallen.(2009).720p.Dual.Audio.(Hin-Eng).[MoviesFlix.NeT].mkv
+t/home/amit/.local/share/vifm/Trash/000_a
+	/home/amit/GitHub/LeetCode/Problems/a
 
 # State:
 f
