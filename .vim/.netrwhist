@@ -1,11 +1,4 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/amit/Google Code Jam/2020/Qualification-Round/Parenting-Partnering-Returns'
-let g:netrw_dirhist_2='/etc'
-let g:netrw_dirhist_3='/home/amit/Google Code Jam/2020/Qualification-Round/Parenting-Partnering-Returns'
-let g:netrw_dirhist_4='/home/amit/Pictures/Wallpaper'
-let g:netrw_dirhist_5='/home/amit/UVA--Online-Judge'
-let g:netrw_dirhist_6='/home/amit/.config/alacritty'
-let g:netrw_dirhist_7='/home/amit/SuckLess/st-0.8.3'
-let g:netrw_dirhist_8='/home/amit/GitHub/LeetCode/Problems'
-let g:netrw_dirhist_9='/home/amit/GitHub/Daily-Coding-Problem/Solution'
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/home/amit/GitHub/HackerRank'
+let g:netrw_dirhist_2='/home/amit/Desktop/Algo & Data Structure/Trees/Interval-Tree/Fenwick Tree'
