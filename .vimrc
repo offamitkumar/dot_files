@@ -145,15 +145,5 @@ ia ablveo above
 ia tmep temp
 ia empyt empty
 ia psuh push 
-ia Ii int z; scanf("%d",&z);
 ia deifne define 
-ia pb push_back
-ia mp make_pair
-ia mt make_tuple
 ia deifine define
-set autoread | au CursorHold * checktime | call feedkeys("lh")
-
-
-
-
-
