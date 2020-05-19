@@ -4,4 +4,4 @@ while xsetroot -name "[$(pactl list sinks | grep '^[[:space:]]Volume:' | head -n
 do
 	sleep 1
 done &
-exec ~/SuckLess/DWM/dwm
+exec ~/GitHub/dot_files/DWM/dwm
