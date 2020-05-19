@@ -1,5 +1,4 @@
 #!/bin/bash
-
 if [ $USER == 'amit'  ]
 then
     echo "User   : $USER"
@@ -21,7 +20,6 @@ else
             exit ;; 
     esac
     fi
-
 if [ -d "$HOME/GitHub" ] 
 then
     echo "Directory Already Exist -- Done"
@@ -38,8 +36,6 @@ else
         exit
         fi
     fi
-
-
 if [ -d "$HOME/GitHub/dot_files" ] 
 then
     echo "$HOME/GitHub/dot_files :  Directory Already Exist -- Done"
@@ -57,12 +53,14 @@ else
         exit
         fi
     fi
-
-
 # creating symlink for some configuration files / directories 
-
 ln -s "$HOME/GitHub/dot_files/.bashrc" $HOME/.bashrc
-ln -s "$HOME/GitHub/dot_files/.gitconfig" $HOME/.gitconfig
+if [ $USER -eq "amit" ] then
+    # it's okay 
+    ln -s "$HOME/GitHub/dot_files/.gitconfig" $HOME/.gitconfig
+else
+    echo "You need to create you own Git Configuration"
+    fi
 ln -s "$HOME/GitHub/dot_files/.xinitrc" $HOME/.xinitrc
 ln -s "$HOME/GitHub/dot_files/.zshrc" $HOME/.zshrc
 ln -s "$HOME/GitHub/dot_files/.vimrc" $HOME/.vimrc
@@ -71,10 +69,7 @@ ln -s "$HOME/GitHub/dot_files/cmus" $HOME/.config/cmus
 ln -s "$HOME/GitHub/dot_files/fish" $HOME/.config/fish
 ln -s "$HOME/GitHub/dot_files/vifm" $HOME/.config/vifm
 ln -s "$HOME/GitHub/dot_files/mpv" $HOME/.config/mpv
-if [ -d $HOME/.config/alacritty ]
-then
-else
+if [ ! -d $HOME/.config/alacritty ]
     mkdir -p $HOME/.config/alacritty
     fi
 ln -s "$HOME/GitHub/dot_files/alacritty" $HOME/.config/alacritty/alacritty.yml
-
