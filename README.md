@@ -1,5 +1,4 @@
-
-###My Dot Files
+# My Dot Files
 
 
 for installation just run : setup.sh
