@@ -108,7 +108,7 @@ set wildmenu
 set wildmode=longest,list
 
 syntax enable
-colorscheme molokai_transparent
+colorscheme molokai
 filetype plugin indent on
 filetype indent on
 " my function
