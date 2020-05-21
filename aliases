@@ -46,9 +46,12 @@ alias s='cd ~/Softwares' # be careful about this
 
 alias gt='cd ~/GitHub'  # be careful about this
 alias Git='cd ~/GitHub'  # be careful about this
-alias ga='git add '
-alias gp='git push '
-alias gc='git checkout '
+alias add='git add '
+alias push='git push '
+alias check='git checkout '
+alias commit='git commit -m '
+alias commitm='git commit -m '
+alias commita='git commit -a '
 
 # application launcher 
 
