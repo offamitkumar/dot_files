@@ -11,7 +11,12 @@ alias "..."='cd ../..'
 alias "...."='cd ../../..'
 alias "....."='cd ../../../..'
 
+# rm
+alias rm='gio trash ' # everything you delete will go to ~/.local/share/Trash , sometimes we remove important file in work flow
+                      # and with rm command they became un-recoverable 
 
+# cpplint 
+alias cpplint='python3 $HOME/GitHub/dot_files/cppChecker/cpplint.py '
 # mounting/unmounting block devices 
 
 alias mtp='jmtpfs '
@@ -65,7 +70,7 @@ alias gvim='vim '
 
 alias t='time '
 alias md='mkdir '
-alias rm='rm -r '
+# alias rm='rm -r '
 alias shut='sudo poweroff'
 alias shutdown='sudo poweroff'
 alias e='exit'
