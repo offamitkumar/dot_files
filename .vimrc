@@ -2,11 +2,11 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set cindent
 let g:indentLine_setColors = 1
-set dictionary=/usr/share/dict/american-english
+"set dictionary=/usr/share/dict/american-english
+set dictionary=$HOME/GitHub/cpp-keyword-dictionary/cpp-words
 set complete=.,w,k
 set nocp
 set keywordprg=dict
-set runtimepath^=~/.vim/bundle/hardmode.vim
 runtime macros/matchit.vim
 set nocompatible
 set clipboard=unnamedplus
