@@ -14,7 +14,7 @@
 
 # TUI:
 al
-q0
+q1
 v2
 ov
 m-1
@@ -185,8 +185,65 @@ d/home/amit/GitHub/dot_files
 	..
 0
 d/home/amit/GitHub
-	dot_files
+	Algorithms-And-Data-Structure-Implementation
+1
+d/home/amit
+	My Documents
+8
+d/home/amit/My Documents
+	Amit Kumar – Kattis, Kattis.pdf
+7
+d/home/amit
+	Books
+1
+d/home/amit/Books
+	Vim_Editor
+14
+d/home/amit
+	Desktop
+2
+d/home/amit/Desktop
+	GO
+7
+d/home/amit/Desktop/GO
+	hello.go
+1
+d/home/amit/Desktop
+	C++
+4
+d/home/amit
+	..
+0
+d/home
+	amit
+1
+d/
+	lib
+5
+d/lib
+	..
+0
+d/
+	home
+4
+d/home
+	amit
+1
+d/home/amit
+	Books
+1
+d/home/amit/Books
+	VIFM_Cheat_Sheet
+12
+d/home/amit/Books/VIFM_Cheat_Sheet
+	vifm-v0.10-builtin-normal.pdf
+1
+d/home/amit/Books
+	Vim_Cheat_Sheets
 13
+d/home/amit/Books/Vim_Cheat_Sheets
+	Completed
+1
 d
 
 # Right window history (oldest to newest):
@@ -437,6 +494,8 @@ D
 
 # Command line history (oldest to newest):
 :quit
+:h
+:colorscheme Default
 :q
 
 # Search history (oldest to newest):
