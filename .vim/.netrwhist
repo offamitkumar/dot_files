@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/home/amit/GitHub/HackerRank'
 let g:netrw_dirhist_2='/home/amit/Desktop/Algo & Data Structure/Trees/Interval-Tree/Fenwick Tree'
 let g:netrw_dirhist_3='/home/amit/GitHub/dot_files/.git'
@@ -8,3 +8,4 @@ let g:netrw_dirhist_5='/home/amit/GitHub/dot_files/.vim'
 let g:netrw_dirhist_6='/home/amit/GitHub/UVA--Online-Judge/Solution/Problem_010810'
 let g:netrw_dirhist_7='/home/amit/GitHub/UVA--Online-Judge/Solution/Problem_000100'
 let g:netrw_dirhist_8='/home/amit/GitHub/Algorithms-And-Data-Structure-Implementation/Algorithms/stringMatching'
+let g:netrw_dirhist_9='/home/amit/GitHub/C-Plus-Plus.backup/backtracking'
