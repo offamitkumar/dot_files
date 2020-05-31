@@ -79,11 +79,8 @@ ia endl '\n'
 ia namspace namespace
 ia namsapce namespace
 ia namesapce namespace
-ia lb lower_bound
-ia ub upper_bound 
 ia mian main
 ia retrun return
-ia ll long long
 ia amti amit
 ia Amti Amit 
 ia whiel while
