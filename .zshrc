@@ -142,8 +142,9 @@ else
 fi
 
 
-
+source ~/GitHub/dot_files/mcd.sh
 
 export PAGER="/usr/bin/most -s"
 
 fpath+=${ZDOTDIR:-~}/.zsh_functions
+
