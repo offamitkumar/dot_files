@@ -92,11 +92,11 @@ alias rin='rm input && vi input'
 alias rio='rm input && vi input && ./a.out && clear && out'
 alias inp='cat input'
 alias cf='cd && cd /home/amit/Desktop/Competitive\ Programming/'
-alias g++='g++ -std=c++17 ' #using c++-20
-alias g="g++ -g -Wall -D HELL_JUDGE -fsanitize=signed-integer-overflow -fsanitize=return "
+alias g++='g++ -std=c++17 ' 
+alias g="g++ -g -Wall -Wextra -Wshadow -D HELL_JUDGE -fsanitize=signed-integer-overflow -fsanitize=return "
 alias err='cat error'
-alias cpy='cp ~/Templates/Default.cpp ./sol.cpp && touch input'
-alias cpx='cp ~/Templates/Default_C++.cpp ./sol.cpp '
+alias cpy='cp ~/Templates/competitive_programming_template.cpp ./sol.cpp && touch input'
+alias cpx='cp ~/Templates/def.cpp ./sol.cpp '
 
 
 # Competitive Programming folder 
