@@ -54,7 +54,7 @@ alias Git='cd ~/GitHub'  # be careful about this
 alias add='git add '
 alias push='git push '
 alias check='git checkout '
-alias commit='git commit -m '
+alias commit='git commit '
 alias commitm='git commit -m '
 alias commita='git commit -a '
 
@@ -135,5 +135,4 @@ alias clr='clear'
 alias cear='clear'
 alias clar='clear'
 alias c='clear'
-
 
