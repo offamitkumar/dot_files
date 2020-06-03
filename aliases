@@ -27,30 +27,18 @@ alias mu='mupdf '
 # some very handy alias / atleast for me ;)
 
 alias mus='cd ~/Music'
-alias ms='cd ~/Music'
 alias vid='cd ~/Videos'
-alias vd='cd ~/Videos'
-alias Doc='cd ~/Documents'
-alias Dc='cd ~/Documents'
-alias dc='cd ~/Documents'
-alias Dow='cd ~/Downloads'
-alias Dw='cd ~/Downloads'
-alias dw='cd ~/Downloads'
-alias d='cd ~/Desktop'
+alias doc='cd ~/Documents'
+alias dow='cd ~/Downloads'
+alias des='cd ~/Desktop'
 alias b='cd ~/Books'  # be careful about this
-alias Des='cd ~/Desktop'
-alias Pic='cd ~/Pictures'
-alias pc='cd ~/Pictures'
 alias pic='cd ~/Pictures'
-alias Sof='cd ~/Softwares' # be careful about this 
 alias sof='cd ~/Softwares' # be careful about this
-alias s='cd ~/Softwares' # be careful about this
 
 
 # GitHub aliases 
 
 alias gt='cd ~/GitHub'  # be careful about this
-alias Git='cd ~/GitHub'  # be careful about this
 alias add='git add '
 alias push='git push '
 alias check='git checkout '
@@ -63,7 +51,6 @@ alias commita='git commit -a '
 alias x='xdg-open '
 alias vims='vim '
 alias vm='vim '
-alias gvim='vim '
 
 
 # some manipulated command 
