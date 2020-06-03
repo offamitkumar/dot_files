@@ -1,3 +1,58 @@
-# hand to remove all extra file and keep only solution file 
+# handy to remove all extra file and keep only solution file
+frm() {
 
-find . -type f -not -name sol.cpp -delete
+    if [ -f input ]
+    then
+        rm input
+        fi
+
+    if [ -f output ]
+    then
+        rm output
+        fi
+
+    if [ -f error ]
+    then
+        rm error
+        fi
+
+    if [ -f deb.cpp ]
+    then
+        rm deb.cpp
+        fi
+
+    if [ -f a ]
+    then
+        rm a
+        fi
+
+    if [ -f a.out ]
+    then
+        rm a.out
+        fi
+
+    if [ -f deb.cpp ]
+    then
+        rm deb.cpp
+        fi
+
+
+    if [ -f deb ]
+    then
+        rm deb
+        fi
+
+    if [ -f gen.cpp ]
+    then
+        rm gen.cpp
+        fi
+
+    if [ -f gen ]
+    then
+        rm gen
+        fi
+    if [ $# -eq 1 ] 
+    then
+        mv sol.cpp $1
+        fi
+}

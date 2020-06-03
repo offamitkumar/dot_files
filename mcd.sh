@@ -4,6 +4,11 @@ mcd() {
         mkdir $1
         cd $1
     else
-        echo "unexpected error"
-        fi
+        if [ $# -eq 0 ]
+        then
+            echo "Error : required one directory name as argument!! "
+        else
+            echo "Error : required only one directory name as argument!! "
+            fi
+            fi
 }

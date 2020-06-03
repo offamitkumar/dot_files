@@ -1,4 +1,10 @@
 #!/bin/bash
+if [ $USER == 'root' ]
+then
+    echo "This file shouldn't be processed with root access"
+    exit 
+    fi
+
 if [ $USER == 'amit'  ]
 then
     echo "User   : $USER"
@@ -20,12 +26,13 @@ else
             exit ;; 
     esac
     fi
+
+
 if [ -d "$HOME/GitHub" ] 
 then
-    echo "Directory Already Exist -- Done"
+    echo "creating $HOME/GitHub : Directory Already Exist -- Done"
 else
     mkdir "$HOME/GitHub"
-    
     #checking if directory created or not
     if [ -d "$HOME/GitHub" ] 
     then
@@ -36,6 +43,7 @@ else
         exit
         fi
     fi
+
 if [ -d "$HOME/GitHub/dot_files" ] 
 then
     echo "$HOME/GitHub/dot_files :  Directory Already Exist -- Done"
@@ -50,26 +58,144 @@ else
     else
         echo "Failed to create Directory : $HOME/GitHub/dot_files"
         echo "Exiting ..."
-        exit
-        fi
     fi
+fi
+
 # creating symlink for some configuration files / directories 
-ln -s "$HOME/GitHub/dot_files/.bashrc" $HOME/.bashrc
-if [ $USER -eq "amit" ] then
+
+if [ $USER == 'amit' ] 
+then
     # it's okay 
-    ln -s "$HOME/GitHub/dot_files/.gitconfig" $HOME/.gitconfig
+    if [ ! -L $HOME/.gitconfig ]
+    then
+        ln -s "$HOME/GitHub/dot_files/gitconfig" $HOME/.gitconfig
+        fi
 else
     echo "You need to create you own Git Configuration"
     fi
-ln -s "$HOME/GitHub/dot_files/.xinitrc" $HOME/.xinitrc
-ln -s "$HOME/GitHub/dot_files/.zshrc" $HOME/.zshrc
-ln -s "$HOME/GitHub/dot_files/.vimrc" $HOME/.vimrc
-ln -s "$HOME/GitHub/dot_files/.vim" $HOME/.vim
-ln -s "$HOME/GitHub/dot_files/cmus" $HOME/.config/cmus
-ln -s "$HOME/GitHub/dot_files/fish" $HOME/.config/fish
-ln -s "$HOME/GitHub/dot_files/vifm" $HOME/.config/vifm
-ln -s "$HOME/GitHub/dot_files/mpv" $HOME/.config/mpv
-if [ ! -d $HOME/.config/alacritty ]
-    mkdir -p $HOME/.config/alacritty
+
+if [ ! -L $HOME/.bashrc ] 
+then
+    ln -s "$HOME/GitHub/dot_files/bashrc" $HOME/.bashrc
     fi
-ln -s "$HOME/GitHub/dot_files/alacritty" $HOME/.config/alacritty/alacritty.yml
+
+if [ ! -L $HOME/.xinitrc ]
+then
+    ln -s "$HOME/GitHub/dot_files/xinitrc" $HOME/.xinitrc
+    fi
+
+if [ ! -L $HOME/.zshrc ]
+then
+    ln -s "$HOME/GitHub/dot_files/zshrc" $HOME/.zshrc
+    fi
+
+if [ ! -L $HOME/.vimrc ]
+then  
+    ln -s "$HOME/GitHub/dot_files/vimrc" $HOME/.vimrc
+    fi
+
+if [ ! -L $HOME/.vim ]
+then
+    ln -s "$HOME/GitHub/dot_files/vim" $HOME/.vim
+    fi
+
+if [ ! -L $HOME/.config/cmus ]
+then
+    ln -s "$HOME/GitHub/dot_files/vifm" $HOME/.config/cmus
+    fi
+
+if [ ! -L $HOME/.config/fish ]
+then
+    ln -s "$HOME/GitHub/dot_files/vifm" $HOME/.config/fish
+    fi
+
+if [ ! -L $HOME/.config/vifm ]
+then
+    ln -s "$HOME/GitHub/dot_files/vifm" $HOME/.config/vifm
+    fi
+
+if [ ! -L $HOME/.config/mpv ]
+then
+    ln -s "$HOME/GitHub/dot_files/mpv" $HOME/.config/mpv
+    fi
+
+if [ ! -d $HOME/.fonts ]
+then
+    mkdir -p $HOME/.fonts
+    ln -s "$HOME/GitHub/dot_files/fonts" $HOME/.fonts
+    fi
+
+if [ ! -d $HOME/.config/alacritty ]
+then
+    mkdir -p $HOME/.config/alacritty
+    ln -s "$HOME/GitHub/dot_files/alacritty" $HOME/.config/alacritty/alacritty.yml
+    fi
+
+if [ ! -L $HOME/.config/alacritty/alacritty.yml ]
+then
+    ln -s "$HOME/GitHub/dot_files/alacritty" $HOME/.config/alacritty/alacritty.yml
+    fi
+
+if [ ! -L $HOME/.oh-my-zsh ]
+then
+    ln -s "$HOME/GitHub/dot_files/oh-my-zsh" $HOME/.oh-my-zsh
+    fi
+
+###########################
+# Creating directory for aliases 
+###########################
+
+if [ ! -d $HOME/Testing ] 
+then
+    mkdir $HOME/Testing
+    fi
+
+if [ ! -d $HOME/Templates ]
+then
+    ln -s "$HOME/GitHub/dot_files/Templates" $HOME/Templates
+    fi
+
+if [ ! -d $HOME/Pictures ]
+then
+    mkdir $HOME/Pictures
+    fi
+    
+if [ ! -d $HOME/Music ]
+then
+    mkdir $HOME/Music
+    fi
+
+if [ ! -d $HOME/Videos ]
+then
+    mkdir $HOME/Videos
+    fi
+
+if [ ! -d $HOME/Books ]
+then
+    mkdir $HOME/Books
+    fi
+
+if [ ! -d $HOME/Videos ]
+then
+    mkdir $HOME/Videos
+    fi
+
+if [ ! -d $HOME/Documents ]
+then
+    mkdir $HOME/Documents
+    fi
+
+if [ ! -d $HOME/Downloads ]
+then
+    mkdir $HOME/Downloads
+    fi
+
+if [ ! -d $HOME/Desktop ]
+then
+    mkdir $HOME/Desktop
+    fi
+
+if [ ! -d $HOME/Softwares ]
+then
+    mkdir $HOME/Softwares
+    fi
