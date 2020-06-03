@@ -143,6 +143,7 @@ fi
 
 
 source ~/GitHub/dot_files/mcd.sh
+source ~/GitHub/dot_files/frm.sh
 
 export PAGER="/usr/bin/most -s"
 
