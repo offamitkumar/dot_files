@@ -9,7 +9,7 @@ set nocompatible
 set clipboard=unnamedplus
 inoremap ;; <C-p>
 nmap <silent><F3> :exe'se'&nu+&rnu?'rnu!':'nu'<CR>
-set visualbell
+set novisualbell
 set background=dark
 set pastetoggle=<F2>
 set tabstop=4
@@ -57,7 +57,7 @@ set wildmenu
 set wildmode=longest,list
 
 syntax enable
-colorscheme molokai
+"colorscheme molokai
 filetype plugin indent on
 filetype indent on
 " my function
