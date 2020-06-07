@@ -146,6 +146,10 @@ then
     ln -s "$HOME/GitHub/dot_files/tmux.conf" $HOME/.tmux.conf
     fi
 
+if [ ! -L $HOME/.xmodmap ]
+then
+    ln -s "$HOME/GitHub/dot_files/xmodmap" $HOME/.xmodmap
+    fi
 ###########################
 # Creating directory for aliases 
 ###########################
