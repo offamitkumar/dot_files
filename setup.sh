@@ -141,6 +141,11 @@ then
     ln -s "$HOME/GitHub/dot_files/oh-my-zsh" $HOME/.oh-my-zsh
     fi
 
+if [ ! -L $HOME/.tmux.conf ]
+then
+    ln -s "$HOME/GitHub/dot_files/tmux.conf" $HOME/.tmux.conf
+    fi
+
 ###########################
 # Creating directory for aliases 
 ###########################
