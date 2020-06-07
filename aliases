@@ -72,6 +72,7 @@ alias test='cd $HOME/Testing'
 # Competitive Programming alias 
 
 alias vs='vim sol.cpp '
+alias o='./a.out'
 alias v='vim '
 alias gs='g sol.cpp'
 alias out='cat output'
