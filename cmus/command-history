@@ -1,10 +1,11 @@
 q
-q!
-colorscheme gruvbox
-colorscheme green-mono-88
-colorscheme cyan
-colorscheme green
+add ~/Music/
 colorscheme default
+colorscheme gruvbox
+colorscheme green
+colorscheme cyan
+q!
+colorscheme green-mono-88
 add ~/Music
 clear
 add 1

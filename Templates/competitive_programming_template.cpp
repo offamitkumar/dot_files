@@ -2,27 +2,33 @@
 
 //  #include <ext/pb_ds/assoc_container.hpp>
 //  #include <ext/pb_ds/tree_policy.hpp>
+
 //  #include <iostream>
-//  #include <chrono>
+//  #include <algorithm>
 //  #include <string>
+//  #include <sstream>
+//  #include <fstream>
+//  #include <iomanip>
+//  #include <chrono>
+//  #include <numeric>
 //  #include <utility>
+
+//  #include <bitset>
+//  #include <tuple>
 //  #include <queue>
 //  #include <stack>
-//  #include <cmath>
-//  #include <map>
-//  #include <unordered_map>
-//  #include <deque>
-//  #include <unordered_set>
-//  #include <set>
-//  #include <climits>
-//  #include <sstream>
-//  #include <iomanip>
-//  #include <cassert>
-//  #include <bitset>
-//  #include <numeric>
 //  #include <vector>
 //  #include <array>
-//  #include <algorithm>
+//  #include <unordered_map>
+//  #include <unordered_set>
+//  #include <set>
+//  #include <map>
+//  #include <deque>
+
+//  #include <climits>
+//  #include <cstring>
+//  #include <cmath>
+//  #include <cassert>
 #include <cstdio>
 using namespace std;
 //  using namespace std::chrono;
@@ -36,7 +42,9 @@ using namespace std;
 //          rb_tree_tag ,
 //          tree_order_statistics_node_update 
 //  > ;
-#define MOD 1000000007
+const int MAXM = (int)1e5+100;
+const int MAXN = (int)1e5+100;
+const int MOD = (int)1e5+100;
 
 int main(void){
 #ifdef HELL_JUDGE
@@ -44,10 +52,10 @@ int main(void){
     freopen("output","w",stdout);
     freopen("error","w",stderr);
 #endif 
-//      auto initial_time = high_resolution_clock::now();
+//    auto initial_time = high_resolution_clock::now();
 
 
-//      auto final_time = high_resolution_clock::now();
-//      cout << duration_cast<milliseconds>(final_time-initial_time).count() << " ms" << '\n'; 
+//    auto final_time = high_resolution_clock::now();
+//    cout << duration_cast<milliseconds>(final_time-initial_time).count() << " ms" << '\n'; 
     return 0;
 }
