@@ -79,7 +79,7 @@ istream& operator>>(istream&in, pair<A, B>&p){
 template<typename A> 
 istream& operator>>(istream&in, vector<A>&vec){
     for(auto&itr:vec){
-        in >> vec;
+        in >> itr;
     }
     return in;
 }
