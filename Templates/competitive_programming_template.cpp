@@ -76,6 +76,22 @@ istream& operator>>(istream&in, pair<A, B>&p){
     return in;
 }
 
+template<typename A> 
+istream& operator>>(istream&in, vector<A>&vec){
+    for(auto&itr:vec){
+        in >> vec;
+    }
+    return in;
+}
+
+template<typename A>
+ostream& operator<<(ostream&out,const vector<A>&vec){
+    for(auto&itr:vec){
+        out << itr <<' '; // VVV 
+    }
+    return out;
+}
+
 const int MAXM = (int)1e5+100;
 const int MAXN = (int)1e5+100;
 const int MOD  = (int)1e9+7;
