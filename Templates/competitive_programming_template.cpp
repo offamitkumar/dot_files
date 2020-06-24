@@ -63,6 +63,8 @@ void show_me(HEAD H, TAIL... T) {
 #else
 #define show(...) 0
 #endif
+
+typedef int64_t Int;
  
 template<typename A, typename B>
 ostream& operator<<(ostream&out, const pair<A, B>&p){
@@ -94,7 +96,7 @@ ostream& operator<<(ostream&out,const vector<A>&vec){
 
 const int MAXM = (int)1e5+100;
 const int MAXN = (int)1e5+100;
-const int MOD  = (int)1e9+7;
+const int64_t MOD  = (int64_t)1e9+7ll;
 
 
 
