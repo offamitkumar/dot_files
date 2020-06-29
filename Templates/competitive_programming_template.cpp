@@ -34,6 +34,8 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 
+#define all(x)  (x).begin(), (x).end()
+
 using namespace std;
 using namespace std::chrono;
 //  using namespace placeholders;
