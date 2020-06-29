@@ -65,6 +65,29 @@ void show_me(HEAD H, TAIL... T) {
 #endif
 
 typedef int64_t Int;
+
+class NumberIterator : iterator<forward_iterator_tag, int> {
+    public:
+        int v;
+
+        NumberIterator(int x) : v(x) {}
+
+        operator int &() { return v; }
+
+        int operator*() { return v; }
+};
+
+class range : pair<int,int> {
+    public:
+        range(int begin, int end) : pair<int,int>(begin, max(begin, end)) {}
+        range(int n) : pair<int,int>(0, max(0, n)) {}
+        NumberIterator begin() {
+            return first;
+        }
+        NumberIterator end() {
+            return second;
+        }
+};
  
 template<typename A, typename B>
 ostream& operator<<(ostream&out, const pair<A, B>&p){
@@ -97,6 +120,7 @@ ostream& operator<<(ostream&out,const vector<A>&vec){
 const int MAXM = (int)1e5+100;
 const int MAXN = (int)1e5+100;
 const int64_t MOD  = (int64_t)1e9+7ll;
+
 
 
 
