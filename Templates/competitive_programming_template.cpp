@@ -52,18 +52,18 @@ using new_set = tree<
          tree_order_statistics_node_update 
  > ;
 
-void show_me() { cerr << endl; }
+void Log_Gen() { cerr << endl; }
  
 template <typename HEAD, typename... TAIL>
-void show_me(HEAD H, TAIL... T) {
+void Log_Gen(HEAD H, TAIL... T) {
   cerr << " " << (H);
   show_me(T...);
 }
  
 #ifdef HELL_JUDGE
-#define show(...) cerr << "[" << #__VA_ARGS__ << "]:", show_me(__VA_ARGS__)
+#define Log(...) cerr << "[" << #__VA_ARGS__ << "]:", Log_Gen(__VA_ARGS__)
 #else
-#define show(...) 0
+#define Log(...) 0
 #endif
 
 typedef int64_t Int;
@@ -90,6 +90,21 @@ class range : pair<int,int> {
             return second;
         }
 };
+
+template<typename Container , typename ValType>
+bool present(const Container &t , const ValType &val){
+    return (t.find(val) != t.end());
+}
+
+template<>
+bool present<string>(const string &s , const char &val){
+    return (s.find(val) == string::npos);
+}
+
+template<>
+bool present<string>(const string &s , const string &val){
+    return (s.find(val) == string::npos);
+}
  
 template<typename A, typename B>
 ostream& operator<<(ostream&out, const pair<A, B>&p){
