@@ -14,7 +14,7 @@
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -244,6 +244,66 @@ d/home/amit/Books
 d/home/amit/Books/Vim_Cheat_Sheets
 	Completed
 1
+d/home/amit/Books/Tmux/Current
+	..
+0
+d/home/amit/Books/Tmux
+	Completed
+1
+d/home/amit/Books/Tmux/Completed
+	..
+0
+d/home/amit/Books/Tmux
+	Current
+2
+d/home/amit/Books/Tmux/Current
+	..
+0
+d/home/amit/Books/Tmux
+	Current
+2
+d/home/amit/GitHub/Algorithms-And-Data-Structure-Implementation/Data-Structures
+	..
+0
+d/home/amit/GitHub/Algorithms-And-Data-Structure-Implementation
+	..
+0
+d/home/amit/GitHub
+	HackerRank
+4
+d/home/amit/GitHub/HackerRank
+	Data-Structure
+5
+d/home/amit/GitHub/HackerRank/Data-Structure
+	Trees
+5
+d/home/amit/Problem-Setting
+	Problem-Body
+1
+d/home/amit/Problem-Setting/Problem-Body
+	..
+0
+d/home/amit/Problem-Setting
+	TSTPROB
+2
+d/home/amit/Problem-Setting/TSTPROB
+	example.html
+1
+d/home/amit/Problem-Setting
+	Problem-Body
+1
+d/home/amit/Problem-Setting/Problem-Body
+	..
+0
+d/home/amit/Problem-Setting
+	TSTPROB
+2
+d/home/amit/Problem-Setting/TSTPROB
+	example.html
+2
+d/home/amit/Problem-Setting/TSTPROB/testcases
+	output_10.txt
+29
 d
 
 # Right window history (oldest to newest):
@@ -490,12 +550,27 @@ D/home/amit/Books
 D/home/amit/GitHub/dot_files/.vim/pack
 	..
 0
+D/home/amit/Books/Tmux/Current
+	..
+0
+D/home/amit/GitHub/Algorithms-And-Data-Structure-Implementation/Data-Structures
+	..
+0
+D/home/amit/Problem-Setting
+	..
+0
+D/home/amit/Problem-Setting/TSTPROB/testcases
+	..
+0
 D
 
 # Command line history (oldest to newest):
 :quit
 :h
 :colorscheme Default
+:!take Completed
+:qy
+:Q
 :q
 
 # Search history (oldest to newest):
@@ -506,7 +581,10 @@ D
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/amit/.local/share/vifm/Trash/000_a
+""/home/amit/Problem-Setting/Problem-Body/example.html
+""/home/amit/Problem-Setting/Problem-Body/input.html
+""/home/amit/Problem-Setting/Problem-Body/output.html
+""/home/amit/Problem-Setting/Problem-Body/statement.html
 
 # Directory stack (oldest to newest):
 
@@ -531,6 +609,8 @@ t/home/amit/.local/share/vifm/Trash/000_Transformers_Transformers.2.Revenge.of.t
 	/home/amit/Phone/Internal shared storage/Download/Transformers_Transformers.2.Revenge.of.the.Fallen.(2009).720p.Dual.Audio.(Hin-Eng).[MoviesFlix.NeT].mkv
 t/home/amit/.local/share/vifm/Trash/000_a
 	/home/amit/GitHub/LeetCode/Problems/a
+t/home/amit/.local/share/vifm/Trash/000_page
+	/home/amit/Books/Tmux/Current/page
 
 # State:
 f

@@ -108,3 +108,5 @@ source $HOME/GitHub/dot_files/mcd.sh
 
 ## execute fast remove command and change name of sol.cpp if passed 1 argument 
 source $HOME/GitHub/dot_files/frm.sh
+
+export PATH=${PATH}:~/Library/Python/2.7.16/bin:~/bin

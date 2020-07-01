@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+let g:indentLine_char_list = '|'
 set cindent
 set dictionary=$HOME/GitHub/cpp-keyword-dictionary/cpp-words
 set complete=.,w,k
@@ -71,9 +72,10 @@ filetype indent on
 "endfunction
 "nmap <F3> :call Dotoggle()<CR>
 " my abbreviations 
-abbr cmt /*<CR>/<esc>O
-abbr mfun int main(int argc , char *argv[]){<CR>// write you code here}<esc>kjOreturn 0;<esc>O
-abbr tcase int t; scanf("%d",&t);<CR>while(t--){<CR>}<esc>O
+abbr Cmt /*<CR>/<esc>O
+abbr Mfun int main(int argc , char *argv[]){<CR>// write you code here}<esc>kjOreturn 0;<esc>O
+abbr Tcase int t; scanf("%d",&t);<CR>while(t--){<CR>}<esc>O
+
 ia scnaf scanf
 ia endl '\n'
 ia namspace namespace
