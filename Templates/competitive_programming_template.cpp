@@ -57,7 +57,7 @@ void Log_Gen() { cerr << endl; }
 template <typename HEAD, typename... TAIL>
 void Log_Gen(HEAD H, TAIL... T) {
   cerr << " " << (H);
-  show_me(T...);
+  Log_Gen(T...);
 }
  
 #ifdef HELL_JUDGE
