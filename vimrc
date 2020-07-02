@@ -71,10 +71,25 @@ filetype indent on
 "    endif
 "endfunction
 "nmap <F3> :call Dotoggle()<CR>
+
+
 " my abbreviations 
-abbr Cmt /*<CR>/<esc>O
-abbr Mfun int main(int argc , char *argv[]){<CR>// write you code here}<esc>kjOreturn 0;<esc>O
-abbr Tcase int t; scanf("%d",&t);<CR>while(t--){<CR>}<esc>O
+nmap <silent><F4> <esc>:1pu=strftime('%c')<CR><esc>ggji//  Date   : <esc>
+
+" Snippets will start with first Capital letter S
+abbr Sfenwick <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/Data-Structures/Fenwick-Tree/fenwick.cpp<CR>
+abbr Sdsu <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/Data-Structures/Disjoin-Set-Union/dsu.cpp<CR>
+abbr Ssegment <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/Data-Structures/Segment-Tree/seg_one.cpp<CR>
+abbr Slsegment <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/Data-Structures/Segment-Tree/lazy_seg_tree.cpp<CR>
+abbr Sint <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/__int128_input_output.cpp<CR>
+abbr Smatrix <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/matrix_exponentiation.cpp<CR>
+abbr Sexp <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/mod_exponentiation.cpp<CR>
+abbr Smod <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/mod_ops.cpp<CR>
+abbr S4dir <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/4D.cpp<CR>
+abbr S8dir <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/8D.cpp<CR>
+abbr Ssieve <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/linear_sieve.cpp<CR>
+abbr Strie <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/trie.cpp<CR>
+abbr Skmp <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/String-Matching/kmp.cpp<CR>
 
 ia scnaf scanf
 ia endl '\n'

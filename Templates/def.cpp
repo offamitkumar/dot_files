@@ -1,4 +1,4 @@
-// Author : Amit Kumar 
+//  Author : Amit Kumar 
 
 #include <bits/stdc++.h>
 using namespace std;
