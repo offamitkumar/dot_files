@@ -89,6 +89,13 @@ abbr S4dir <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/4D.c
 abbr S8dir <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/8D.cpp<CR>
 abbr Ssieve <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/linear_sieve.cpp<CR>
 abbr Strie <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/trie.cpp<CR>
+abbr Siof <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/input_file.cpp<CR>
+abbr Sfio <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/fast_io.cpp<CR>
+abbr Sconst <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/const.cpp<CR>
+abbr Spbds <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/o_set.cpp<CR>
+abbr Sdebug <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/debug.cpp<CR>
+abbr Srange <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/range.cpp<CR>
+abbr Svpi <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/vpi.cpp<CR>
 abbr Skmp <esc>:read ~/GitHub/Algorithms-And-Data-Structure-Implementation/String-Matching/kmp.cpp<CR>
 
 ia scnaf scanf
