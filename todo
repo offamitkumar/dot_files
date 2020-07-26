@@ -86,3 +86,13 @@ Section "InputClass"
 	Driver "libinput"
 	Option "Tapping" "on"
 EndSection
+
+
+// GENERATE SSH KEYS FOR  GITHUB 
+ssh-keygen -t rsa -b 4096 -C "offamitkumar@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+
+// now goto github and add this key 
