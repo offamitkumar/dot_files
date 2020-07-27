@@ -2,7 +2,7 @@
 if [ $USER == 'root' ]
 then
     echo "This file shouldn't be processed with root access"
-    exit 
+    exit
     fi
 
 if [ $USER == 'amit'  ]
@@ -16,25 +16,25 @@ else
     echo "These dot files might not work expectedly for you"
     echo -e "Do you want to continue:[y/n/Y/N]\c"
     read CHOICE
-    case $CHOICE in 
+    case $CHOICE in
         "y" )
-            echo "Continuing ";; 
+            echo "Continuing ";;
         "Y" )
             echo "Continuing ";;
         * )
-            echo "Exiting " 
-            exit ;; 
+            echo "Exiting "
+            exit ;;
     esac
     fi
 
 
-if [ -d "$HOME/GitHub" ] 
+if [ -d "$HOME/GitHub" ]
 then
     echo "creating $HOME/GitHub : Directory Already Exist -- Done"
 else
     mkdir "$HOME/GitHub"
     #checking if directory created or not
-    if [ -d "$HOME/GitHub" ] 
+    if [ -d "$HOME/GitHub" ]
     then
         echo "$HOME/GitHub :  Directory created -- Done"
     else
@@ -44,15 +44,15 @@ else
         fi
     fi
 
-if [ -d "$HOME/GitHub/dot_files" ] 
+if [ -d "$HOME/GitHub/dot_files" ]
 then
     echo "$HOME/GitHub/dot_files :  Directory Already Exist -- Done"
 else
     mkdir "$HOME/GitHub/dot_files"
     cp -r * $HOME/GitHub/dot_files # copying all current files
 
-    #checking if directory created or not 
-    if [ -d "$HOME/GitHub/dot_files" ] 
+    #checking if directory created or not
+    if [ -d "$HOME/GitHub/dot_files" ]
     then
         echo "$HOME/GitHub/dot_files :  Directory created -- Done"
     else
@@ -61,11 +61,11 @@ else
     fi
 fi
 
-# creating symlink for some configuration files / directories 
+# creating symlink for some configuration files / directories
 
-if [ $USER == 'amit' ] 
+if [ $USER == 'amit' ]
 then
-    # it's okay 
+    # it's okay
     if [ ! -L $HOME/.gitconfig ]
     then
         ln -s "$HOME/GitHub/dot_files/gitconfig" $HOME/.gitconfig
@@ -74,7 +74,7 @@ else
     echo "You need to create you own Git Configuration"
     fi
 
-if [ ! -L $HOME/.bashrc ] 
+if [ ! -L $HOME/.bashrc ]
 then
     ln -s "$HOME/GitHub/dot_files/bashrc" $HOME/.bashrc
     fi
@@ -90,7 +90,7 @@ then
     fi
 
 if [ ! -L $HOME/.vimrc ]
-then  
+then
     ln -s "$HOME/GitHub/dot_files/vimrc" $HOME/.vimrc
     fi
 
@@ -118,7 +118,10 @@ if [ ! -L $HOME/.config/mpv ]
 then
     ln -s "$HOME/GitHub/dot_files/mpv" $HOME/.config/mpv
     fi
-
+if [ ! -L $HOME/.themes]
+then
+    ln -s "$HOME/GitHub/dot_files/theme" $HOME/.theme
+    fi
 if [ ! -d $HOME/.fonts ]
 then
     mkdir -p $HOME/.fonts
@@ -151,10 +154,10 @@ then
     ln -s "$HOME/GitHub/dot_files/xmodmap" $HOME/.xmodmap
     fi
 ###########################
-# Creating directory for aliases 
+# Creating directory for aliases
 ###########################
 
-if [ ! -d $HOME/Testing ] 
+if [ ! -d $HOME/Testing ]
 then
     mkdir $HOME/Testing
     fi
@@ -168,7 +171,10 @@ if [ ! -d $HOME/Pictures ]
 then
     mkdir $HOME/Pictures
     fi
-    
+if [ ! -d $HOME/Notes ]
+then
+    mkdir $HOME/Notes
+    fi
 if [ ! -d $HOME/Music ]
 then
     mkdir $HOME/Music
