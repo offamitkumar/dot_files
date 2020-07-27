@@ -1,3 +1,6 @@
+set foldmethod=marker
+"set foldmarker=nnn,mmm 
+" nnn is start of fold and mmm is end of fold ie. {{{,}}}
 set nocompatible              " be iMproved, required
 let g:indentLine_char_list = '|'
 set cindent
