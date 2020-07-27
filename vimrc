@@ -3,6 +3,7 @@ let g:indentLine_char_list = '|'
 set cindent
 set dictionary=$HOME/GitHub/cpp-keyword-dictionary/cpp-words
 set complete=.,w,k
+set hidden
 set nocp
 set keywordprg=dict
 runtime macros/matchit.vim
@@ -14,6 +15,8 @@ set novisualbell
 set background=dark
 set pastetoggle=<F2>
 set tabstop=4
+set undofile
+set undodir=~/.vim/undodir
 set shiftwidth=4
 set expandtab
 set guioptions-=r
@@ -58,7 +61,7 @@ set wildmenu
 set wildmode=longest,list
 
 syntax enable
-colorscheme molokai
+"colorscheme onedark
 filetype plugin indent on
 filetype indent on
 " my function
