@@ -41,7 +41,8 @@ static const Rule rules[] = {
 	{ "Atom",             NULL,       NULL,       1<<2,             0,           -1 },
 	{ "pcmanfm",          NULL,       NULL,       1<<3,             0,           -1 },
 	{ "Pcmanfm",          NULL,       NULL,       1<<3,             0,           -1 },
-  { "evince",           NULL,       NULL,       1<<3,             0,           -1 },
+    { "evince",           NULL,       NULL,       1<<3,             0,           -1 },
+    { "Evince",           NULL,       NULL,       1<<3,             0,           -1 },
 	{ "mpv",              NULL,       NULL,       1<<4,             0,           -1 },
 	{ "zoom",             NULL,       NULL,       1<<8,             0,           -1 },
 };
