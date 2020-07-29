@@ -1,3 +1,5 @@
+set t_ZH=[3m
+set t_ZR=[23m
 set foldmethod=marker
 "set foldmarker=nnn,mmm 
 " nnn is start of fold and mmm is end of fold ie. {{{,}}}
