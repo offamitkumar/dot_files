@@ -195,11 +195,6 @@ then
     mkdir $HOME/Videos
     fi
 
-if [ ! -d $HOME/Documents ]
-then
-    mkdir $HOME/Documents
-    fi
-
 if [ ! -d $HOME/Downloads ]
 then
     mkdir $HOME/Downloads
@@ -214,3 +209,4 @@ if [ ! -d $HOME/Softwares ]
 then
     mkdir $HOME/Softwares
     fi
+
