@@ -8,6 +8,9 @@ cd /etc/
 vim sudoers 
 // COPY & PASTE ROOT LINE AND CHANGE USER amit
 
+// INSTALL WICD WIFI MANAGER 
+sudo apt-get install wicd
+
 exit
 sudo apt-get install xorg
 sudo apt-get install gcc
