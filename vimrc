@@ -66,7 +66,7 @@ set wildmenu
 set wildmode=longest,list
 
 syntax enable
-"colorscheme onedark
+"colorscheme shine 
 filetype plugin indent on
 filetype indent on
 " my function
