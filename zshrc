@@ -3,6 +3,7 @@
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/amit/.oh-my-zsh"
+export PATH=$PATH:/usr/sbin/john
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -103,10 +104,10 @@ if [ -e ~/GitHub/dot_files/aliases ]
 then
     source ~/GitHub/dot_files/aliases
 fi
-## make and change directory function 
+## make and change directory function
 source $HOME/GitHub/dot_files/mcd.sh
 
-## execute fast remove command and change name of sol.cpp if passed 1 argument 
+## execute fast remove command and change name of sol.cpp if passed 1 argument
 source $HOME/GitHub/dot_files/frm.sh
 
 export PATH=${PATH}:~/Library/Python/2.7.16/bin:~/bin
