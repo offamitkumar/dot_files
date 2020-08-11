@@ -11,6 +11,11 @@ frm() {
         rm output
         fi
 
+    if [ -f brute ]
+    then
+        rm brute
+        fi
+
     if [ -f error ]
     then
         rm error
@@ -30,12 +35,6 @@ frm() {
     then
         rm a.out
         fi
-
-    if [ -f deb.cpp ]
-    then
-        rm deb.cpp
-        fi
-
 
     if [ -f deb ]
     then
