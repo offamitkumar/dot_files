@@ -101,12 +101,12 @@ then
 
 if [ ! -L $HOME/.config/cmus ]
 then
-    ln -s "$HOME/GitHub/dot_files/vifm" $HOME/.config/cmus
+    ln -s "$HOME/GitHub/dot_files/cmus" $HOME/.config/cmus
     fi
 
 if [ ! -L $HOME/.config/fish ]
 then
-    ln -s "$HOME/GitHub/dot_files/vifm" $HOME/.config/fish
+    ln -s "$HOME/GitHub/dot_files/fish" $HOME/.config/fish
     fi
 
 if [ ! -L $HOME/.config/vifm ]
@@ -118,9 +118,9 @@ if [ ! -L $HOME/.config/mpv ]
 then
     ln -s "$HOME/GitHub/dot_files/mpv" $HOME/.config/mpv
     fi
-if [ ! -L $HOME/.themes]
+if [ ! -L $HOME/.themes ]
 then
-    ln -s "$HOME/GitHub/dot_files/theme" $HOME/.theme
+    ln -s "$HOME/GitHub/dot_files/themes" $HOME/.themes
     fi
 if [ ! -d $HOME/.fonts ]
 then
