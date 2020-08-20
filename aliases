@@ -10,7 +10,7 @@ alias "....."='cd ../../../..'
 # }}}
 # alias rm to trash {{{
 
-alias rm='gio trash ' # everything you delete will go to ~/.local/share/Trash , sometimes we remove important file in work flow
+alias rm='trash ' # everything you delete will go to ~/.local/share/Trash , sometimes we remove important file in work flow
                       # and with rm command they became un-recoverable 
 
 # }}}
