@@ -3,3 +3,5 @@ cmus/search-history
 cmus/lib.pl
 cmus/command-history
 cmus/playlist.pl
+DWM/dwm
+DWM/dwm.o
