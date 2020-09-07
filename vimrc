@@ -14,7 +14,7 @@ set keywordprg=dict
 runtime macros/matchit.vim
 set nocompatible
 set clipboard=unnamedplus
-inoremap ;; <C-p>
+inoremap ;; <C-n>
 nmap <silent><F3> :exe'se'&nu+&rnu?'rnu!':'nu'<CR>
 set novisualbell
 set background=dark
@@ -67,8 +67,6 @@ set wildmode=longest,list
 
 syntax enable
 "colorscheme shine 
-filetype plugin indent on
-filetype indent on
 " my function
  
 "function Dotoggle()
