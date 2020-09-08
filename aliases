@@ -85,7 +85,7 @@ alias cf='cd && cd /home/amit/Desktop/Competitive\ Programming/'
 alias g++='g++ -std=c++17 ' 
 alias g="g++ -g -Wall -Wextra -Wshadow -D HELL_JUDGE -fsanitize=signed-integer-overflow -fsanitize=return "
 alias err='cat error'
-alias cpy='cp ~/Templates/competitive_programming_template.cpp ./sol.cpp && touch input'
+alias cpy='cp ~/Templates/competitive_programming_template.cpp ./sol.cpp && touch input && cp ~/GitHub/dot_files/Testing_Tools/* ./'
 alias cpx='cp ~/Templates/def.cpp ./sol.cpp '
 
 # }}}
