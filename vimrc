@@ -66,7 +66,7 @@ set wildmenu
 set wildmode=longest,list
 
 syntax enable
-"colorscheme shine 
+"colorscheme default 
 " my function
  
 "function Dotoggle()
