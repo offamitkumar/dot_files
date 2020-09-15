@@ -1,6 +1,6 @@
 " Insert or delete brackets, parens, quotes in pairs.
 " Maintainer: Amit Kumar <offamitkumar@gmail.com>	
-" Last Change:  2019-12-05
+" Last Change:  2020-09-15
 if exists('g:AutoPairsLoaded') || &cp
   finish
 end
