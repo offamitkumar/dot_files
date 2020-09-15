@@ -40,7 +40,6 @@ set linebreak
 set spell
 set et
 set title
-filetype plugin on
 filetype indent on
 set noeb vb t_vb=
 set history=500
