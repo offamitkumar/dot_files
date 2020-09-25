@@ -1,6 +1,11 @@
 # handy to remove all extra file and keep only solution file
 frm() {
 
+    if [ -f b.sh ]
+    then
+        rm b.sh 
+        fi
+
     if [ -f input ]
     then
         rm input
