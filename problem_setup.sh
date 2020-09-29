@@ -2,7 +2,7 @@ cpy() {
     if [ $# -eq 0 ] 
     then 
         echo "ERROR : no problem name provided" 
-        exit 
+        return 
         fi
         mkdir $1 
         cd $1
