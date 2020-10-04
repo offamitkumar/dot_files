@@ -85,7 +85,6 @@ alias cf='cd && cd /home/amit/Desktop/Competitive\ Programming/'
 alias g++='g++ -std=c++17 ' 
 alias g="g++ -g -Wall -Wextra -Wshadow -D HELL_JUDGE -fsanitize=signed-integer-overflow -fsanitize=return "
 alias err='cat error'
-#alias cpy='cp ~/GitHub/dot_files/problem_setup.sh ./t.sh'
 alias cpx='cp ~/Templates/def.cpp ./sol.cpp '
 
 # }}}
