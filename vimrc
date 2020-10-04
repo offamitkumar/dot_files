@@ -20,6 +20,7 @@ set novisualbell
 set background=dark
 set pastetoggle=<F2>
 set tabstop=4
+set smarttab
 set undofile
 set undodir=~/.vim/undodir
 set shiftwidth=4
