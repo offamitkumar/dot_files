@@ -35,7 +35,6 @@ set autoindent
 set ruler
 set autowrite
 set autoread
-set smarttab
 set linebreak
 set spell
 set et
@@ -43,7 +42,6 @@ set title
 filetype indent on
 set noeb vb t_vb=
 set history=500
-set smarttab
 set hlsearch
 set lazyredraw
 set magic
