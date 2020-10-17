@@ -4,6 +4,8 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/amit/.oh-my-zsh"
 export PATH=$PATH:/usr/sbin/john
+export LANG=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
