@@ -3,5 +3,8 @@ cmus/search-history
 cmus/lib.pl
 cmus/command-history
 cmus/playlist.pl
+oh-my-zsh/cache/.zsh-update
+oh-my-zsh/cache/DEBS_avail
+vim/.netrwhist
 DWM/dwm
 DWM/dwm.o
