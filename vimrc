@@ -1,5 +1,6 @@
 set t_ZH=[3m
 set t_ZR=[23m
+inoremap <F7> :exe "g/Creation Date :.*/s//Creation Date : " .strftime("%c")
 set foldmethod=marker
 "set foldmarker=nnn,mmm 
 " nnn is start of fold and mmm is end of fold ie. {{{,}}}
